@@ -25,4 +25,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Como executar
 
-- Abra o arquivo `src/pages/login-page/index.html` em seu navegador.
+- Execute o arquivo `src/pages/login-page/index.html` com o live server

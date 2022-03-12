@@ -4,7 +4,7 @@ let currentUser = {
   photo: ''
 }
 
-const init = () => {
+const initUser = () => {
   getCurrentUser()
 
   const logoutItem = document.querySelector('.tooltip__user--logout')
@@ -41,5 +41,3 @@ const logout = () => {
   localStorage.removeItem('IS_USER_LOGGED')
   window.location.href = '../login-page/index.html'
 }
-
-export default init

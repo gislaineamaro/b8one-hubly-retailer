@@ -1,8 +1,6 @@
-import { formatter } from './utils.js'
-
 let data = []
 
-const init = () => {
+const initInsights = () => {
   loadData()
 }
 
@@ -80,5 +78,3 @@ const renderTable = () => {
 
   tableBody.innerHTML = contentHtml
 }
-
-export default init

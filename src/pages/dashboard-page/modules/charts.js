@@ -1,5 +1,3 @@
-import { formatter } from './utils.js'
-
 let salesData = {
   revenues: 0,
   totalSales: 1830,
@@ -8,7 +6,7 @@ let salesData = {
 
 let rankingData = []
 
-const init = () => {
+const initCharts = () => {
   loadSalesData()
   loadDealers()
   handleTabClick()
@@ -349,5 +347,3 @@ const chartDealers = () => {
 
   const myChart = new Chart(ctx, config)
 }
-
-export default init

@@ -1,11 +1,6 @@
-import chartsjs from './modules/charts.js'
-import menu from './modules/menu.js'
-import initInsights from './modules/insights.js'
-import initUser from './modules/user.js'
-
 const main = () => {
   initUser()
-  chartsjs()
+  initCharts()
   menu()
   initInsights()
 }
