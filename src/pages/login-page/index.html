@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../static/css/global.css" />
+    <title>Login | Hubly Retailer</title>
+  </head>
+  <body>
+    <form class="form__box">
+      <div class="form__message">
+        <h2 class="form__message--title">Olá, tudo bem? &#9995;</h1>
+        <h5 class="form__message--description">
+          Vamos decolar para grandes dias de vendas.
+        </h5>
+      </div>
+      <div class="form__form--control">
+        <div class="form__input--control">
+          <label for="form__input--email" class="form__label--email">
+            Seu E-mail
+          </label>
+          <input
+            type="email"
+            class="form__input--email"
+            placeholder="exemplo@email.com"
+          />
+          <small class="form__error--text" hidden>Este e-mail não existe, você tem outro?</small>
+        </div>
+        <div class="form__input--control">
+          <label for="form__input--email" class="form__label--password">
+            Sua Senha
+          </label>
+          <div class="form__input-group--control">
+            <input
+              type="password"
+              class="form__input--password"
+              placeholder="Digite sua senha.."
+            />
+            <button class="form__button--password" type="button">
+              <img src="../../assets/eyeHide.png" class="form__icon--view form__icon--eye">
+            </button>
+          </div>
+        </div>
+        <div class="form__options">
+          <div class="form__checkbox--control">
+            <input type="checkbox" class="form__checkbox"  checked/>
+            <label for="form__checkbox" class="form__label--checkbox">Manter conectado</label>
+          </div>
+          <a href="#" class="form__option--password">Esqueci minha senha</a>
+        </div>
+        <button type="submit" class="form__button--submit">Entrar</button>
+      </div>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
